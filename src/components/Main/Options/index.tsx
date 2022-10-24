@@ -5,7 +5,7 @@ export function Options() {
     <div className="flex flex-col gap-2 p-4 sm:gap-4">
       <h1 className="text-2xl text-white font-bold sm:text-4xl">Not sure where to start?</h1>
       <p className="text-gray-400 sm:text-base">Programs offer day-to-day guidance on an interactive calendar to keep you on track.</p>
-      <div className="flex flex-nowrap flex-row gap-2 w-max overscroll-contain">
+      <div className="flex flex-nowrap flex-row w-max gap-2">
         <Card 
           title={'Workout Videos'}
           content={'Access to hundreds of free, full-length workout videos.'}

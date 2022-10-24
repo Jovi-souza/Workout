@@ -17,12 +17,12 @@ export function Header(){
   return(
     <header>
       <div className="flex justify-between items-center p-4 text-white">
-        <h1 className="font-black">WORKOUT</h1>
+        <h1 className="font-black sm:text-xl">WORKOUT</h1>
         <nav>
           <div className='hover:bg-gray-600 rounded p-1 md:hidden'>
             <List size={24} weight="fill" className='cursor-pointer' onClick={ToggleMenu}/>
           </div>
-          <ul className={`${menu} flex flex-col gap-4 p-6 absolute bg-gray-900 right-16 top-16 z-50 rounded-md md:bg-gray-800 md:flex-row md:p-0 md:static`}> 
+          <ul className={`${menu} flex flex-col gap-4 p-6 absolute bg-gray-900 right-16 top-16 z-50 rounded-md md:flex md:bg-gray-800 md:p-0 md:flex-row md:sticky`}> 
             <li
               className="cursor-pointer border-transparent hover:bg-gray-700 p-2 rounded-md transition ease-in-out duration-800 font-light w-max"
             >
